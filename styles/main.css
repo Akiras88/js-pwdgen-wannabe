@@ -13,6 +13,23 @@ h1 {
     text-align: center;
     margin-top: 300px;
     border-radius: 20px;
-    background: #FF9A17;
     flex-basis: 700px;
+    animation: color 4s linear infinite;
+}
+@keyframes color {
+    0% {
+        background: #FFC124;
+    }
+    25% {
+        background: #FFAE1E;
+    }
+    50% {
+        background: #FFA31B;
+    }
+    75% {
+        background: #FF8812;
+    }
+    100% {
+        background: #FF6908;
+    }
 }
